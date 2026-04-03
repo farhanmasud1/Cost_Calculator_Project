@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.total-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.total-box h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.total-box .amount {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.expense-list {
+    margin-top: 20px;
+}
+
+.expense-list h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.expense-items {
+    list-style: none;
+    padding: 0;
+}
+
+.expense-items li {
+    background: #ecf0f1;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.delete-btn:hover {
+    background: #c0392b;
+}
+
+.empty-msg {
+    color: #7f8c8d;
+    text-align: center;
+    padding: 20px;
+}
+
+.error-border {
+    border-color: #e74c3c !important;
+    background-color: #ffe6e6;
+}
+
+.success-border {
+    border-color: #27ae60 !important;
+    background-color: #e8f8f5;
+}
